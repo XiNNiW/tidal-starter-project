@@ -7,6 +7,8 @@
 -- try it out by putting your cursor on line 8 and pressing control+enter
 d1 $ sound "bd"
 
+hush
+
 -- lets break down what's going on in that line:
 -- 'd1' is the name of the pattern channel we would like to assign the sounds to.
 

@@ -60,25 +60,5 @@ s.waitForBoot {
 	// define one instrument called "midi" (you may call it what you like)
 	// it uses the built in event type "midi" (this is predefined).
 
-/*
-	~dirt.soundLibrary.addSynth(\midi,
-		(
-			play: {
-				var e = (
-					lag: ~lag + ~latency, // in the midi event, lag is used as latency
-					note: ~note ? 0,
-					sustain: ~sustain.value,
-					midicmd: ~midicmd ? \noteOn,
-					chan: ~midichan ? 0,
-				);
-				e.proto = (
-					type:\midi,
-					midiout: ~midiOut
-				);
-				e.play;
-			}
-		)
-	);
-*/
 
 };
