@@ -14,7 +14,7 @@ Tidal was designed to be used live but it also makes a great studio tool!
 Algorave is an international [community of musicians](https://algorave.com/) and the name given to live performances of music made using tools like tidal cycles.
 From the [toplap](https://toplap.org/algorave/) website:
 
-> Algoraves are all about dancing to algorithms, including live coding as well as other approaches to controlling and performing > with generative music.
+> Algoraves are all about dancing to algorithms, including live coding as well as other approaches to controlling and performing  with generative music.
 
 Algoravers strive to be transparent exposing the inner workings of their music by projecting the code so the crowd can see it as it is developed.
 Algoravers also strive to be inclusive and diverse, making a point to emphasize diverse lineups at their raves and seeking to make
@@ -29,6 +29,7 @@ Some artists working in this community whose work I particularly enjoy:
 * (miri kat)[https://mirikat.github.io/]
 * (heavy lifting)[https://heavy-lifting.github.io/]
 * (kindohm)[https://kindohm.bandcamp.com/album/risc-chip]
+* (yaxu)[https://computerclub.bandcamp.com/album/peak-cut]
 * (joe beedles)[https://www.youtube.com/watch?v=bRQQwX5vyik&t=1503s]
 
 ## Installing Tidal
