@@ -24,6 +24,7 @@ The full Algorave community guidelines are [here](https://github.com/Algorave/gu
 Algorave isn't limited to music but also often includes visual artist who use code to create synthesized animations
 Some visual livecoding tools:
 * [hydra](https://hydra-editor-v1.glitch.me/)
+* [cyril](http://cyrilcode.com/)
 
 Some artists working in this community whose work I particularly enjoy:
 * [miri kat](https://mirikat.github.io/)
