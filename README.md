@@ -23,14 +23,14 @@ The full Algorave community guidelines are [here](https://github.com/Algorave/gu
 
 Algorave isn't limited to music but also often includes visual artist who use code to create synthesized animations
 Some visual livecoding tools:
-* (hydra)[https://hydra-editor-v1.glitch.me/]
+* [hydra](https://hydra-editor-v1.glitch.me/)
 
 Some artists working in this community whose work I particularly enjoy:
-* (miri kat)[https://mirikat.github.io/]
-* (heavy lifting)[https://heavy-lifting.github.io/]
-* (kindohm)[https://kindohm.bandcamp.com/album/risc-chip]
-* (yaxu)[https://computerclub.bandcamp.com/album/peak-cut]
-* (joe beedles)[https://www.youtube.com/watch?v=bRQQwX5vyik&t=1503s]
+* [miri kat](https://mirikat.github.io/)
+* [heavy lifting](https://heavy-lifting.github.io/)
+* [kindohm](https://kindohm.bandcamp.com/album/risc-chip)
+* [yaxu](https://computerclub.bandcamp.com/album/peak-cut)
+* [joe beedles](https://www.youtube.com/watch?v=bRQQwX5vyik&t=1503s)
 
 ## Installing Tidal
 
