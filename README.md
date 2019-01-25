@@ -21,6 +21,16 @@ Algoravers also strive to be inclusive and diverse, making a point to emphasize 
 the tools of livecoding available to a wide variety of people.
 The full Algorave community guidelines are [here](https://github.com/Algorave/guidelines/blob/master/README_en.md)
 
+Algorave isn't limited to music but also often includes visual artist who use code to create synthesized animations
+Some visual livecoding tools:
+* (hydra)[https://hydra-editor-v1.glitch.me/]
+
+Some artists working in this community whose work I particularly enjoy:
+* (miri kat)[https://mirikat.github.io/]
+* (heavy lifting)[https://heavy-lifting.github.io/]
+* (kindohm)[https://kindohm.bandcamp.com/album/risc-chip]
+* (joe beedles)[https://www.youtube.com/watch?v=bRQQwX5vyik&t=1503s]
+
 ## Installing Tidal
 
 Installing tidal is the most complicated part of using it. We will do it all together.
