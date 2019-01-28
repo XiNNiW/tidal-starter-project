@@ -16,11 +16,6 @@ d1 $ note "0 2 3 5 7 8 10 12" # s "gtr"
 
 hush
 
--- if you aren't familiar with major and minor scales, notice the numbers that differ
--- the 3rd, 6th, and 7th numbers are flat in the minor scale, which is why they one less
-
--- however, you don't have to memorize the scale degree numbers
--- you can choose what scale to write in by using the 'scale' function
 -- the following also plays a major scale
 d1 $ note (scale "major" "0 1 2 3 4 5 6 7") # s "gtr"
 
@@ -80,10 +75,10 @@ hush
 -- if you don't like the effect of combining structure from both sides you can choose which side to take the rhythm from
 -- you can choose using the '|' symbols
 
--- rhythm from the right:
+-- rhythm/structure from the right:
 d1 $ note ("0 0" |+ "2 4 2") # s "gtr"
 
--- rhythm from the left:
+-- rhythm/structure from the left:
 d1 $ note ("0 0" +| "2 4 2") # s "gtr"
 
 hush
@@ -97,6 +92,10 @@ hush
 -- bonus, you can also put patterns in the chords
 
 d1 $ note ( scale "major" $ "[0 0 -1 0, 2*3, 4 3]" + "<0 1 2 3 4 5 6 7>") # s "gtr" # gain 0.9 -- the "# gain 0.9" makes things a bit quieter
+
+-- you can also play chords this way
+d1 $ note ("<c'maj7 d'6by9 c'maj7 [d'6by9 g'maj9]>") # sound "gtr" # gain 0.9
+
 
 hush
 

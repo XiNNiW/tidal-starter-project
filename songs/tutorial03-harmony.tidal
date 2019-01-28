@@ -1,19 +1,22 @@
-do
+-- there are many ways to control harmony in TidalCycles
+-- last time we looked at using the 'scale' function to control the set of notes that we used
 
-chordProg = cat ["g'sevenSus2","~","ds'6by9","c'min7","g'sevenSus4","~","c'nineSus4","c'm13"]
 
-modeProg = cat ["g'minPent","g'minPent","g'minPent","g'minPent","g'minPent","f'majPent","f'majPent","f'majPent"]
+d1 $ note ( scale "major" $ "[0 0 -1 0, 2*3, 4 3]" + "<0 1 2 3 4 5 6 7>") # s "gtr" # gain 0.9 -- the "# gain 0.9" makes things a bit quieter
 
-d2 $ note (("0(3,8)" + (mono $ chordProg))-12) #s "pizz" # orbit 3
--- d3 $ n (chordProg) #s "moogbass" #gain 0.8 # orbit 2
+-- you can also specify chords directly in the patterns
 
-d4 $ n (chordProg) #s "superpiano" #gain 1 # orbit 4
+d1 $ note ("<c'maj7 d'6by9 c'maj7 [d'6by9 g'maj9]>") # sound "gtr" # gain 0.9
 
-d1
-$ every 8 ((* speed (-1)))
-$ stack [
-  -- sound "[[TRX:1 bd? ~ bd?] [~ TRX? ~ bd?] ]*2",
-  n "[~ 2]*2" # s "EP12",
-  sound "~ sn:5",
-  n "[~ ~ ~ 4?] [~ 4 4 4]?" # s "EP12"
-]
+-- the letter before the single quote specifies the root note and the part after specifies the chords
+-- you can also specify how many notes should be included in the chords
+-- the following plays the first 3 notes of a cmaj7 chords
+d1 $ note ("c'maj7:3") # sound "gtr" #gain 0.9
+
+-- the first 4 note of cmaj7
+
+d1 $ note ("c'maj7:4") #sound "gtr" #gain 0.9
+
+-- patterns of chords can be arpeggiated using the 'arpg' and 'arpeggiate' functions
+
+d1 $ note ("ds'min7 gs'm9") # sound "gtr" #gain 0.9
