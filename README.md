@@ -13,13 +13,25 @@ Tidal was designed to be used live but it also makes a great studio tool!
 ### What is algorave?
 Algorave is an international [community of musicians](https://algorave.com/) and the name given to live performances of music made using tools like tidal cycles.
 From the [toplap](https://toplap.org/algorave/) website:
-'''
-Algoraves are all about dancing to algorithms, including live coding as well as other approaches to controlling and performing with generative music.
-'''
+
+> Algoraves are all about dancing to algorithms, including live coding as well as other approaches to controlling and performing  with generative music.
+
 Algoravers strive to be transparent exposing the inner workings of their music by projecting the code so the crowd can see it as it is developed.
 Algoravers also strive to be inclusive and diverse, making a point to emphasize diverse lineups at their raves and seeking to make
 the tools of livecoding available to a wide variety of people.
 The full Algorave community guidelines are [here](https://github.com/Algorave/guidelines/blob/master/README_en.md)
+
+Algorave isn't limited to music but also often includes visual artist who use code to create synthesized animations
+Some visual livecoding tools:
+* [hydra](https://hydra-editor-v1.glitch.me/)
+* [cyril](http://cyrilcode.com/)
+
+Some artists working in this community whose work I particularly enjoy:
+* [miri kat](https://mirikat.github.io/)
+* [heavy lifting](https://heavy-lifting.github.io/)
+* [kindohm](https://kindohm.bandcamp.com/album/risc-chip)
+* [yaxu](https://computerclub.bandcamp.com/album/peak-cut)
+* [joe beedles](https://www.youtube.com/watch?v=bRQQwX5vyik&t=1503s)
 
 ## Installing Tidal
 
@@ -28,18 +40,16 @@ Tidal is installed in 3 parts.
 
 ### The Anatomy of the Instrument
 
-1. Supercollider and SuperDirt
- - Supercollider is a language and engine for making synthesizers and doing audio processing.
- It is the engine that makes Tidal make sound.
- - SuperDirt is software written for supercollider that converts Tidal patterns into sounds.
+1. __Supercollider and SuperDirt__
+   * Supercollider is a language and engine for making synthesizers and doing audio processing. It is the engine that makes Tidal make sound.
+   * SuperDirt is software written for supercollider that converts Tidal patterns into sounds.
 
-1. tidal
-  - Tidal is the language that you use to express musical ideas in patterns. It sends data to superdirt to make sounds.
-  It can also receive data from superdirt to make patterns react to the outside world. (ex. a midi controller)
+1. __Tidal__
+   * Tidal is the language that you use to express musical ideas in patterns. It sends data to superdirt to make sounds. It can also receive data from superdirt to make patterns react to the outside world. (ex. a midi controller)
 
-1. A text editor with a plugin for tidalcycles
-  - A text editor with a special plugin is required to evaluate the tidalcycles code live. This is the interface that you will use to make music with tidal.
-  - Many good editors with plugins exist (Atom, VSCode, emacs, vim). We will use atom today.
+1. __A text editor with a plugin for tidalcycles__
+   * A text editor with a special plugin is required to evaluate the tidalcycles code live. This is the interface that you will use to make music with tidal.
+   * Many good editors with plugins exist (Atom, VSCode, emacs, vim). We will use atom today.
 
 ### Installation Steps
 We will follow along with the instructions here: [install instructions](https://tidalcycles.org/index.php/Installation)
@@ -47,9 +57,18 @@ select your operating system from the list and follow along.
 
 When you are done, we will do a few more things together to make it easier for you to make music with tidal. The steps below will make it easy for you to use custom sounds and samples in tidal, and record midi and audio without having to edit more code.
 
-1. Open supercollider and edit the startup file to point at tidal-startup.scd
+1. Open supercollider
 
-1. Edit startup.scd to point at install directory
+1. Edit the startup file ("startup.scd") to point at the file called "tidal-startup.scd" in the directory where you downloaded this starter project.
+
+1. Edit the "tidal-startup.scd" file and correct the paths that specify the location of the "samples" directory
+   * change the directory in this line: ```~dirt.loadSoundFiles("<PATH_TO_YOUR_TIDAL_STARTER_PROJECT>/tidal-starter-project/samples/*");```
+   
+1. Edit the "tidal-startup.scd" file and correct the paths that specify the location of the "synths" directory
+   * change the directory in this line: ```~dirt.loadSynthDefs("<PATH_TO_YOUR_TIDAL_STARTER_PROJECT>/tidal-starter-project/synths/");```
+   
+1. (Optional) Edit the "tidal-startup.scd" file and specify your midi device
+   * change this line to point at your midi device: ```	~midiOutput = MIDIOut.newByName("Virtual Raw MIDI 2-0","VirMIDI 2-0");```
 
 ## Running Tidal
 
