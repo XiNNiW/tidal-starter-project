@@ -59,7 +59,7 @@ d1 $ slow "<1 2 3 4>" $ stack [
 ]
 
 -- the 'every' function, applies an effect every n cycles
--- to reverse the pattern every 4th cycle∷
+-- to reverse the pattern every 4th cycle:
 d1 $ every 4 (rev) $ stack [
   sound "[bd ~ bd] [[sd bd] ~]",
   note (scale "hexPhrygian" "~ 0 . 4 5 . 6") #s "gtr"
@@ -91,10 +91,11 @@ hush
 
 
 d1
+$ every 8 (sometimes (*| speed "-1"))
 $ stack [
   -- juxBy 0.5 (ghost) $ (# speed "-1") $ note (scale "minPent" $ slow 4 $ "[0,4,6]" + slow 2 "0 9 4[3 5]") # sound "gtr:4" #gain 0.5 #lpf (slow 16 $4000*saw),
   stack [
-    mono $ note ((scale "minPent" $ "<0(<3 1 5 2>,8) [~ -2]>" + "<[[0*2] 2] [3 3 [5 6 7 8]] [-2 0] [[0*2] 2]>")-3) # s "jvbass"
+    mono $ note ((scale "minPent" $ "<0(<3 1 5 2>,8) [~ -2]>" + "<[[0*2] 2] [3 3 [5 6 7 8]] [-2 0] [[0*2] 2]>")-3) # s "jvbass" #gain 1.5
   ],
   outside 3 (every 15 (stut "0 1 3" 0.5 0.33 . (# speed (saw))))
   $ every 16 (striate "[2 4] [8 12 18]")
