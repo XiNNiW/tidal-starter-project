@@ -60,6 +60,7 @@ When you are done, we will do a few more things together to make it easier for y
 1. Open supercollider
 
 1. Edit the startup file ("startup.scd") to point at the file called "tidal-startup.scd" in the directory where you downloaded this starter project.
+   * add the following line: ``` load(<PATH_TO_YOUR_TIDAL_STARTER_PROJECT>/tidal-starter-project/tidal-startup.scd); ```
 
 1. Edit the "tidal-startup.scd" file and correct the paths that specify the location of the "samples" directory
    * change the directory in this line: ```~dirt.loadSoundFiles("<PATH_TO_YOUR_TIDAL_STARTER_PROJECT>/tidal-starter-project/samples/*");```

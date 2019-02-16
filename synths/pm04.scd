@@ -21,7 +21,7 @@ SynthDef(\pm04, {
 	noise = PinkNoise.ar(EnvGen.kr(Env.perc, doneAction: 0));
 	osc1 = PMOsc.ar(vibFreq+spread, harmonic*0.5*vibFreq, (1+noise)*springMod*brightness, 0, 0.1);
 	osc2 = PMOsc.ar(vibFreq-spread, harmonic*0.5*vibFreq, (1+noise)*springMod*brightness, 0, 0.1);
-	env = EnvGen.kr(Env.adsr(attack,decay,sustain,release,amp), gate, timeScale:sustain, doneAction:2);
+	env = EnvGen.kr(Env.adsr(attack,decay,1,release,amp), gate, timeScale:sustain, doneAction:2);
 	OffsetOut.ar(out, DirtPan.ar((osc1/2).tanh, ~dirt.numChannels, pan+spread, env));
 	OffsetOut.ar(out, DirtPan.ar((osc2/2).tanh, ~dirt.numChannels, pan-spread, env));
 }).add

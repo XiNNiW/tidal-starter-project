@@ -20,8 +20,8 @@ s.options.numInputBusChannels = 2; // set this to your hardware output channel s
 s.waitForBoot {
 	~dirt = SuperDirt(2, s); // two output channels, increase if you want to pan across more channels
 	~dirt.loadSoundFiles;   // load samples (path containing a wildcard can be passed in)
-	~dirt.loadSoundFiles("~/Music/tidal-cycles/january2019/samples/*");
-	~dirt.loadSynthDefs("~/Music/tidal-cycles/january2019/synths/");
+	//~dirt.loadSoundFiles("YOUR_INSTALL_LOCATION/tidal-starter-project/samples/*");
+	//~dirt.loadSynthDefs("YOUR_INSTALL_LOCATION/tidal-starter-project/synths/");
 	// for example: ~dirt.loadSoundFiles("/Users/myUserName/Dirt/samples/*");
 	// ~dirt.startSendRMS;
 	s.sync; // wait for samples to be read
@@ -48,9 +48,9 @@ s.waitForBoot {
 
 	// create a midi out connection
 	// ~midiOut = MIDIOut.newByName("FastLane USB", "Port A"); // substitute your own device here
-	~midiOutput = MIDIOut.newByName("Virtual Raw MIDI 2-0","VirMIDI 2-0");
-	~dirt.soundLibrary.addMIDI(\midi, ~midiOutput);
-	~midiOutput.latency = 0.1;
+	//~midiOutput = MIDIOut.newByName("Virtual Raw MIDI 2-0","VirMIDI 2-0");
+	//~dirt.soundLibrary.addMIDI(\midi, ~midiOutput);
+	//~midiOutput.latency = 0.1;
 
 	 // you may want to adjust the latency here
 	// ~midiOut.latency = 0.1;
