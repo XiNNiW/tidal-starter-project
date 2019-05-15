@@ -6,11 +6,11 @@ and how to make a few chords, and at the end you will leave with a working copy 
 
 
 ### What is tidalcycles?
-[Tidalcycles] (https://tidalcycles.org/index.php/Welcome) is an instrument for making music that is made out of code. Instead of strings, keys or reeds, it uses code to create sound.
+[Tidalcycles](https://tidalcycles.org/index.php/Welcome) is an instrument for making music that is made out of code. Instead of strings, keys or reeds, it uses code to create sound.
 Performers create and execute lines of code to bring their musical ideas to life. In most instruments, the idea of the music (the score, or chord chart, or memory) is separate from the music (the sound and performance). In tidal, they are unified. You express the idea to tidal and immediately hear the result. This can make tidal more accessible than other instruments and allow it to work in ways that are very different than other instruments.
 Tidal was designed to be used live but it also makes a great studio tool!
 
-[Tidalcycles] (https://tidalcycles.org/index.php/Welcome) is one of many tools created for making live algorithmic music. Here are some other great ones: 
+[Tidalcycles](https://tidalcycles.org/index.php/Welcome) is one of many tools created for making live algorithmic music. Here are some other great ones: 
 * [Sonic Pi](https://sonic-pi.net/)
 * [Orca](https://github.com/hundredrabbits/Orca)
 * [Foxdot](http://foxdot.org/)
