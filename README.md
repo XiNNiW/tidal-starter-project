@@ -10,15 +10,20 @@ tidalcycles is an instrument for making music that is made out of code. Instead 
 Performers create and execute lines of code to bring their musical ideas to life. In most instruments, the idea of the music (the score, or chord chart, or memory) is separate from the music (the sound and performance). In tidal, they are unified. You express the idea to tidal and immediately hear the result. This can make tidal more accessible than other instruments and allow it to work in ways that are very different than other instruments.
 Tidal was designed to be used live but it also makes a great studio tool!
 
+Tidalcycles is one of many tools created for making live algorithmic music. Here are some other great ones: 
+* [Sonic Pi](https://sonic-pi.net/)
+* [Orca](https://github.com/hundredrabbits/Orca)
+* [Foxdot](http://foxdot.org/)
+* [Gibber](https://gibber.cc/)
+
 ### What is algorave?
-Algorave is an international [community of musicians](https://algorave.com/) and the name given to live performances of music made using tools like tidal cycles.
+Algorave is an international [community of musicians](https://algorave.com/) and the name given to live performances of music made using algorithms.
 From the [toplap](https://toplap.org/algorave/) website:
 
 > Algoraves are all about dancing to algorithms, including live coding as well as other approaches to controlling and performing  with generative music.
 
-Algoravers strive to be transparent exposing the inner workings of their music by projecting the code so the crowd can see it as it is developed.
-Algoravers also strive to be inclusive and diverse, making a point to emphasize diverse lineups at their raves and seeking to make
-the tools of livecoding available to a wide variety of people.
+Algoravers strive to be transparent in exposing the inner workings of their music by projecting the code so the crowd can see it as it is developed.
+Algoravers also strive to be an intentional community, valuing diversity, respect for other communities, collapsing heirarchies, being free culture unassociated with institutions.
 The full Algorave community guidelines are [here](https://github.com/Algorave/guidelines/blob/master/README_en.md)
 
 Algorave isn't limited to music but also often includes visual artist who use code to create synthesized animations
