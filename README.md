@@ -6,11 +6,11 @@ and how to make a few chords, and at the end you will leave with a working copy 
 
 
 ### What is tidalcycles?
-tidalcycles is an instrument for making music that is made out of code. Instead of strings, keys or reeds, it uses code to create sound.
+[Tidalcycles] (https://tidalcycles.org/index.php/Welcome) is an instrument for making music that is made out of code. Instead of strings, keys or reeds, it uses code to create sound.
 Performers create and execute lines of code to bring their musical ideas to life. In most instruments, the idea of the music (the score, or chord chart, or memory) is separate from the music (the sound and performance). In tidal, they are unified. You express the idea to tidal and immediately hear the result. This can make tidal more accessible than other instruments and allow it to work in ways that are very different than other instruments.
 Tidal was designed to be used live but it also makes a great studio tool!
 
-Tidalcycles is one of many tools created for making live algorithmic music. Here are some other great ones: 
+[Tidalcycles] (https://tidalcycles.org/index.php/Welcome) is one of many tools created for making live algorithmic music. Here are some other great ones: 
 * [Sonic Pi](https://sonic-pi.net/)
 * [Orca](https://github.com/hundredrabbits/Orca)
 * [Foxdot](http://foxdot.org/)
@@ -37,6 +37,12 @@ Some artists working in this community whose work I particularly enjoy:
 * [kindohm](https://kindohm.bandcamp.com/album/risc-chip)
 * [yaxu](https://computerclub.bandcamp.com/album/peak-cut)
 * [joe beedles](https://www.youtube.com/watch?v=bRQQwX5vyik&t=1503s)
+
+## Join the community
+
+If you need any help getting started there is a very active online community of algoravers. Here are some places you can get in touch:
+* [Lurk Chat](https://tidalcycles.org/index.php/Welcome) -- A multichannel chat full of people using all kinds of livecoding tools. This is a great tool for getting immidiate help.
+* [Toplap Forum](https://toplap.lurk.org/) -- A forum for livecoders. A great place to have longer conversations about the music and the instruments.
 
 ## Installing Tidal
 
